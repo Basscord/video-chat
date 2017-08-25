@@ -1,0 +1,18 @@
+
+html            { overflow: hidden; height: 100%;}
+video           { object-fit: cover;}
+#remoteVideo    { width: 100%; height: 100%; position: absolute; display: block; top: 0; left: 0;}
+#localVideo     { width: 20%; position: absolute; z-index: 2; bottom: 10px; left: 10px; display: block; }
+
+body {
+  background-color: black;
+  margin: 0;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+

@@ -1,0 +1,22 @@
+{
+  "name": "video-chat",
+  "version": "1.0.0",
+  "description": "Video Chat application.",
+  "main": "server.js",
+  "author": "Brian Mau",
+  "scripts": {
+    "start": "node server.js",
+    "debug": "node --nolazy --inspect --debug-brk=5858 ./server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "1.4.*"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.10",
+    "@types/socket.io-client": "^1.4.29",
+    "@types/webrtc": "0.0.21",
+    "eslint": "^4.2.0"
+  }
+}
