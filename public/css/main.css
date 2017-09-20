@@ -1,9 +1,38 @@
 
-html            { overflow: hidden; height: 100%;}
-video           { object-fit: cover;}
-#remoteVideo    { width: 100%; height: 100%; position: absolute; display: block; top: 0; left: 0;}
-#localVideo     { width: 20%; position: absolute; z-index: 2; bottom: 10px; left: 10px; display: block; }
-
+html {
+	overflow: hidden;
+	height: 100%;
+}
+.one video {
+	object-fit: cover;
+}
+.localVideo {
+	width: 20%;
+	position: absolute;
+	z-index: 2;
+	bottom: 10px;
+	left: 10px;
+	display: block;
+}
+.remoteVideos {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+.remoteVideos video {
+	flex-grow: 1;
+	flex-shrink: 1;
+	min-width: 0px;
+	min-height: 0px;
+}
 body {
   background-color: black;
   margin: 0;
