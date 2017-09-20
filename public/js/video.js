@@ -1,6 +1,6 @@
 (function() {
   /** @type {SocketIOClient.Socket} */
-  const socket = io('/');
+  const socket = io.connect(window.location.origin);
   const localVideo = document.querySelector('.localVideo');
   const remoteVideos = document.querySelector('.remoteVideos');
   const peerConnections = {};
