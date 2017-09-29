@@ -1,8 +1,6 @@
 # Video Chat
 
-[Slides](http://slides.com/basscord/webrtc-video-streaming/)
-
-[Demo](https://video-chat.basscord.co/your-clever-room-name)
+[Slides](http://slides.com/basscord/webrtc-video-streaming/) | [Demo](https://video-chat.basscord.co/your-clever-room-name)
 
 Simple app that allows peer to peer video chats.
 
