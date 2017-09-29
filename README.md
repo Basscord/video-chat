@@ -4,6 +4,6 @@
 
 Simple app that allows peer to peer video chats.
 
-Create a room by going to [Demo](https://video-chat.basscord.co/)[room-name-goes-here]
+Create a room by going to [https://video-chat.basscord.co/](https://video-chat.basscord.co/)[room-name-goes-here]
 
 Send that url to a friend and video chatting will commence.
